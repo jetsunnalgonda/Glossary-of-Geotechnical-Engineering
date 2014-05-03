@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F171AD5E1914B66700D1C899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F171AD5D1914B66700D1C899 /* Foundation.framework */; };
+		F171AD601914B66700D1C899 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F171AD5F1914B66700D1C899 /* CoreGraphics.framework */; };
+		F171AD621914B66700D1C899 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F171AD611914B66700D1C899 /* UIKit.framework */; };
+		F171AD681914B66700D1C899 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F171AD661914B66700D1C899 /* InfoPlist.strings */; };
+		F171AD6A1914B66700D1C899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F171AD691914B66700D1C899 /* main.m */; };
+		F171AD6E1914B66700D1C899 /* HLKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F171AD6D1914B66700D1C899 /* HLKAppDelegate.m */; };
+		F171AD711914B66700D1C899 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F171AD6F1914B66700D1C899 /* Main_iPhone.storyboard */; };
+		F171AD741914B66700D1C899 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F171AD721914B66700D1C899 /* Main_iPad.storyboard */; };
+		F171AD771914B66700D1C899 /* HLKFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F171AD761914B66700D1C899 /* HLKFirstViewController.m */; };
+		F171AD7A1914B66700D1C899 /* HLKSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F171AD791914B66700D1C899 /* HLKSecondViewController.m */; };
+		F171AD7C1914B66700D1C899 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F171AD7B1914B66700D1C899 /* Images.xcassets */; };
+		F171AD831914B66700D1C899 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F171AD821914B66700D1C899 /* XCTest.framework */; };
+		F171AD841914B66700D1C899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F171AD5D1914B66700D1C899 /* Foundation.framework */; };
+		F171AD851914B66700D1C899 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F171AD611914B66700D1C899 /* UIKit.framework */; };
+		F171AD8D1914B66700D1C899 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F171AD8B1914B66700D1C899 /* InfoPlist.strings */; };
+		F171AD8F1914B66700D1C899 /* Glossary_of_Geotechnical_EngineeringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F171AD8E1914B66700D1C899 /* Glossary_of_Geotechnical_EngineeringTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F171AD861914B66700D1C899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F171AD521914B66700D1C899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F171AD591914B66700D1C899;
+			remoteInfo = "Glossary of Geotechnical Engineering";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F171AD5A1914B66700D1C899 /* Glossary of Geotechnical Engineering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glossary of Geotechnical Engineering.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F171AD5D1914B66700D1C899 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F171AD5F1914B66700D1C899 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F171AD611914B66700D1C899 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F171AD651914B66700D1C899 /* Glossary of Geotechnical Engineering-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Glossary of Geotechnical Engineering-Info.plist"; sourceTree = "<group>"; };
+		F171AD671914B66700D1C899 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F171AD691914B66700D1C899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F171AD6B1914B66700D1C899 /* Glossary of Geotechnical Engineering-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Glossary of Geotechnical Engineering-Prefix.pch"; sourceTree = "<group>"; };
+		F171AD6C1914B66700D1C899 /* HLKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLKAppDelegate.h; sourceTree = "<group>"; };
+		F171AD6D1914B66700D1C899 /* HLKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLKAppDelegate.m; sourceTree = "<group>"; };
+		F171AD701914B66700D1C899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F171AD731914B66700D1C899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F171AD751914B66700D1C899 /* HLKFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLKFirstViewController.h; sourceTree = "<group>"; };
+		F171AD761914B66700D1C899 /* HLKFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLKFirstViewController.m; sourceTree = "<group>"; };
+		F171AD781914B66700D1C899 /* HLKSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLKSecondViewController.h; sourceTree = "<group>"; };
+		F171AD791914B66700D1C899 /* HLKSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLKSecondViewController.m; sourceTree = "<group>"; };
+		F171AD7B1914B66700D1C899 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F171AD811914B66700D1C899 /* Glossary of Geotechnical EngineeringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glossary of Geotechnical EngineeringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F171AD821914B66700D1C899 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F171AD8A1914B66700D1C899 /* Glossary of Geotechnical EngineeringTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Glossary of Geotechnical EngineeringTests-Info.plist"; sourceTree = "<group>"; };
+		F171AD8C1914B66700D1C899 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F171AD8E1914B66700D1C899 /* Glossary_of_Geotechnical_EngineeringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Glossary_of_Geotechnical_EngineeringTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F171AD571914B66700D1C899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F171AD601914B66700D1C899 /* CoreGraphics.framework in Frameworks */,
+				F171AD621914B66700D1C899 /* UIKit.framework in Frameworks */,
+				F171AD5E1914B66700D1C899 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F171AD7E1914B66700D1C899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F171AD831914B66700D1C899 /* XCTest.framework in Frameworks */,
+				F171AD851914B66700D1C899 /* UIKit.framework in Frameworks */,
+				F171AD841914B66700D1C899 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F171AD511914B66700D1C899 = {
+			isa = PBXGroup;
+			children = (
+				F171AD631914B66700D1C899 /* Glossary of Geotechnical Engineering */,
+				F171AD881914B66700D1C899 /* Glossary of Geotechnical EngineeringTests */,
+				F171AD5C1914B66700D1C899 /* Frameworks */,
+				F171AD5B1914B66700D1C899 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F171AD5B1914B66700D1C899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F171AD5A1914B66700D1C899 /* Glossary of Geotechnical Engineering.app */,
+				F171AD811914B66700D1C899 /* Glossary of Geotechnical EngineeringTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F171AD5C1914B66700D1C899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F171AD5D1914B66700D1C899 /* Foundation.framework */,
+				F171AD5F1914B66700D1C899 /* CoreGraphics.framework */,
+				F171AD611914B66700D1C899 /* UIKit.framework */,
+				F171AD821914B66700D1C899 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F171AD631914B66700D1C899 /* Glossary of Geotechnical Engineering */ = {
+			isa = PBXGroup;
+			children = (
+				F171AD6C1914B66700D1C899 /* HLKAppDelegate.h */,
+				F171AD6D1914B66700D1C899 /* HLKAppDelegate.m */,
+				F171AD6F1914B66700D1C899 /* Main_iPhone.storyboard */,
+				F171AD721914B66700D1C899 /* Main_iPad.storyboard */,
+				F171AD751914B66700D1C899 /* HLKFirstViewController.h */,
+				F171AD761914B66700D1C899 /* HLKFirstViewController.m */,
+				F171AD781914B66700D1C899 /* HLKSecondViewController.h */,
+				F171AD791914B66700D1C899 /* HLKSecondViewController.m */,
+				F171AD7B1914B66700D1C899 /* Images.xcassets */,
+				F171AD641914B66700D1C899 /* Supporting Files */,
+			);
+			path = "Glossary of Geotechnical Engineering";
+			sourceTree = "<group>";
+		};
+		F171AD641914B66700D1C899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F171AD651914B66700D1C899 /* Glossary of Geotechnical Engineering-Info.plist */,
+				F171AD661914B66700D1C899 /* InfoPlist.strings */,
+				F171AD691914B66700D1C899 /* main.m */,
+				F171AD6B1914B66700D1C899 /* Glossary of Geotechnical Engineering-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F171AD881914B66700D1C899 /* Glossary of Geotechnical EngineeringTests */ = {
+			isa = PBXGroup;
+			children = (
+				F171AD8E1914B66700D1C899 /* Glossary_of_Geotechnical_EngineeringTests.m */,
+				F171AD891914B66700D1C899 /* Supporting Files */,
+			);
+			path = "Glossary of Geotechnical EngineeringTests";
+			sourceTree = "<group>";
+		};
+		F171AD891914B66700D1C899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F171AD8A1914B66700D1C899 /* Glossary of Geotechnical EngineeringTests-Info.plist */,
+				F171AD8B1914B66700D1C899 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F171AD591914B66700D1C899 /* Glossary of Geotechnical Engineering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F171AD921914B66700D1C899 /* Build configuration list for PBXNativeTarget "Glossary of Geotechnical Engineering" */;
+			buildPhases = (
+				F171AD561914B66700D1C899 /* Sources */,
+				F171AD571914B66700D1C899 /* Frameworks */,
+				F171AD581914B66700D1C899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Glossary of Geotechnical Engineering";
+			productName = "Glossary of Geotechnical Engineering";
+			productReference = F171AD5A1914B66700D1C899 /* Glossary of Geotechnical Engineering.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F171AD801914B66700D1C899 /* Glossary of Geotechnical EngineeringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F171AD951914B66700D1C899 /* Build configuration list for PBXNativeTarget "Glossary of Geotechnical EngineeringTests" */;
+			buildPhases = (
+				F171AD7D1914B66700D1C899 /* Sources */,
+				F171AD7E1914B66700D1C899 /* Frameworks */,
+				F171AD7F1914B66700D1C899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F171AD871914B66700D1C899 /* PBXTargetDependency */,
+			);
+			name = "Glossary of Geotechnical EngineeringTests";
+			productName = "Glossary of Geotechnical EngineeringTests";
+			productReference = F171AD811914B66700D1C899 /* Glossary of Geotechnical EngineeringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F171AD521914B66700D1C899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HLK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Haluk Isik";
+				TargetAttributes = {
+					F171AD801914B66700D1C899 = {
+						TestTargetID = F171AD591914B66700D1C899;
+					};
+				};
+			};
+			buildConfigurationList = F171AD551914B66700D1C899 /* Build configuration list for PBXProject "Glossary of Geotechnical Engineering" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F171AD511914B66700D1C899;
+			productRefGroup = F171AD5B1914B66700D1C899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F171AD591914B66700D1C899 /* Glossary of Geotechnical Engineering */,
+				F171AD801914B66700D1C899 /* Glossary of Geotechnical EngineeringTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F171AD581914B66700D1C899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F171AD741914B66700D1C899 /* Main_iPad.storyboard in Resources */,
+				F171AD7C1914B66700D1C899 /* Images.xcassets in Resources */,
+				F171AD711914B66700D1C899 /* Main_iPhone.storyboard in Resources */,
+				F171AD681914B66700D1C899 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F171AD7F1914B66700D1C899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F171AD8D1914B66700D1C899 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F171AD561914B66700D1C899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F171AD771914B66700D1C899 /* HLKFirstViewController.m in Sources */,
+				F171AD6E1914B66700D1C899 /* HLKAppDelegate.m in Sources */,
+				F171AD7A1914B66700D1C899 /* HLKSecondViewController.m in Sources */,
+				F171AD6A1914B66700D1C899 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F171AD7D1914B66700D1C899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F171AD8F1914B66700D1C899 /* Glossary_of_Geotechnical_EngineeringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F171AD871914B66700D1C899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F171AD591914B66700D1C899 /* Glossary of Geotechnical Engineering */;
+			targetProxy = F171AD861914B66700D1C899 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F171AD661914B66700D1C899 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F171AD671914B66700D1C899 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F171AD6F1914B66700D1C899 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F171AD701914B66700D1C899 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F171AD721914B66700D1C899 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F171AD731914B66700D1C899 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F171AD8B1914B66700D1C899 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F171AD8C1914B66700D1C899 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F171AD901914B66700D1C899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F171AD911914B66700D1C899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F171AD931914B66700D1C899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glossary of Geotechnical Engineering/Glossary of Geotechnical Engineering-Prefix.pch";
+				INFOPLIST_FILE = "Glossary of Geotechnical Engineering/Glossary of Geotechnical Engineering-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F171AD941914B66700D1C899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glossary of Geotechnical Engineering/Glossary of Geotechnical Engineering-Prefix.pch";
+				INFOPLIST_FILE = "Glossary of Geotechnical Engineering/Glossary of Geotechnical Engineering-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F171AD961914B66700D1C899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Glossary of Geotechnical Engineering.app/Glossary of Geotechnical Engineering";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glossary of Geotechnical Engineering/Glossary of Geotechnical Engineering-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Glossary of Geotechnical EngineeringTests/Glossary of Geotechnical EngineeringTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F171AD971914B66700D1C899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Glossary of Geotechnical Engineering.app/Glossary of Geotechnical Engineering";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glossary of Geotechnical Engineering/Glossary of Geotechnical Engineering-Prefix.pch";
+				INFOPLIST_FILE = "Glossary of Geotechnical EngineeringTests/Glossary of Geotechnical EngineeringTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F171AD551914B66700D1C899 /* Build configuration list for PBXProject "Glossary of Geotechnical Engineering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F171AD901914B66700D1C899 /* Debug */,
+				F171AD911914B66700D1C899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F171AD921914B66700D1C899 /* Build configuration list for PBXNativeTarget "Glossary of Geotechnical Engineering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F171AD931914B66700D1C899 /* Debug */,
+				F171AD941914B66700D1C899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F171AD951914B66700D1C899 /* Build configuration list for PBXNativeTarget "Glossary of Geotechnical EngineeringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F171AD961914B66700D1C899 /* Debug */,
+				F171AD971914B66700D1C899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F171AD521914B66700D1C899 /* Project object */;
+}
