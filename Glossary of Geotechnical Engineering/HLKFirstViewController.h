@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HLKFirstViewController : UIViewController
-
+@property (nonatomic, strong) NSArray *terms;
+@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @end

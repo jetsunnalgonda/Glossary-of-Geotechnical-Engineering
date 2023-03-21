@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>AASHTO Soil Classification</string>
+		<key>definition</key>
+		<string>A soil classification system usually used for highway design and construction.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Active earth pressure</string>
+		<key>definition</key>
+		<string>The horizontal stress exerted by a mass of soil on a retaining wall as the wall moves away from the soil.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Active (Rankine) zone</string>
+		<key>definition</key>
+		<string>The area behind a retaining structure that is above the failure plane.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Activity</string>
+		<key>definition</key>
+		<string>The ratio of plasticity index to percent by weight of clay. This property is correlated with the type of clay.</string>
+	</dict>
+</array>
+</plist>

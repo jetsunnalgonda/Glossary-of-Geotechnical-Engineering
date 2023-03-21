@@ -23,6 +23,10 @@
 		F171AD851914B66700D1C899 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F171AD611914B66700D1C899 /* UIKit.framework */; };
 		F171AD8D1914B66700D1C899 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F171AD8B1914B66700D1C899 /* InfoPlist.strings */; };
 		F171AD8F1914B66700D1C899 /* Glossary_of_Geotechnical_EngineeringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F171AD8E1914B66700D1C899 /* Glossary_of_Geotechnical_EngineeringTests.m */; };
+		F171AD9A1914D5D800D1C899 /* Glossary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F171AD981914D5D800D1C899 /* Glossary.xcdatamodeld */; };
+		F171AD9D191552B900D1C899 /* Term.m in Sources */ = {isa = PBXBuildFile; fileRef = F171AD9C191552B900D1C899 /* Term.m */; };
+		F171AD9F1916C1EE00D1C899 /* Terms.plist in Resources */ = {isa = PBXBuildFile; fileRef = F171AD9E1916C1EE00D1C899 /* Terms.plist */; };
+		F171ADA2191836B600D1C899 /* HLKNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F171ADA1191836B600D1C899 /* HLKNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,12 @@
 		F171AD8A1914B66700D1C899 /* Glossary of Geotechnical EngineeringTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Glossary of Geotechnical EngineeringTests-Info.plist"; sourceTree = "<group>"; };
 		F171AD8C1914B66700D1C899 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F171AD8E1914B66700D1C899 /* Glossary_of_Geotechnical_EngineeringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Glossary_of_Geotechnical_EngineeringTests.m; sourceTree = "<group>"; };
+		F171AD991914D5D800D1C899 /* Glossary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Glossary.xcdatamodel; sourceTree = "<group>"; };
+		F171AD9B191552B900D1C899 /* Term.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Term.h; sourceTree = "<group>"; };
+		F171AD9C191552B900D1C899 /* Term.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Term.m; sourceTree = "<group>"; };
+		F171AD9E1916C1EE00D1C899 /* Terms.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Terms.plist; sourceTree = "<group>"; };
+		F171ADA0191836B600D1C899 /* HLKNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLKNavigationBar.h; sourceTree = "<group>"; };
+		F171ADA1191836B600D1C899 /* HLKNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLKNavigationBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +127,14 @@
 		F171AD631914B66700D1C899 /* Glossary of Geotechnical Engineering */ = {
 			isa = PBXGroup;
 			children = (
-				F171AD6C1914B66700D1C899 /* HLKAppDelegate.h */,
-				F171AD6D1914B66700D1C899 /* HLKAppDelegate.m */,
 				F171AD6F1914B66700D1C899 /* Main_iPhone.storyboard */,
 				F171AD721914B66700D1C899 /* Main_iPad.storyboard */,
+				F171AD981914D5D800D1C899 /* Glossary.xcdatamodeld */,
+				F171AD9E1916C1EE00D1C899 /* Terms.plist */,
+				F171AD9B191552B900D1C899 /* Term.h */,
+				F171AD9C191552B900D1C899 /* Term.m */,
+				F171ADA0191836B600D1C899 /* HLKNavigationBar.h */,
+				F171ADA1191836B600D1C899 /* HLKNavigationBar.m */,
 				F171AD751914B66700D1C899 /* HLKFirstViewController.h */,
 				F171AD761914B66700D1C899 /* HLKFirstViewController.m */,
 				F171AD781914B66700D1C899 /* HLKSecondViewController.h */,
@@ -134,6 +148,8 @@
 		F171AD641914B66700D1C899 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F171AD6C1914B66700D1C899 /* HLKAppDelegate.h */,
+				F171AD6D1914B66700D1C899 /* HLKAppDelegate.m */,
 				F171AD651914B66700D1C899 /* Glossary of Geotechnical Engineering-Info.plist */,
 				F171AD661914B66700D1C899 /* InfoPlist.strings */,
 				F171AD691914B66700D1C899 /* main.m */,
@@ -237,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F171AD9F1916C1EE00D1C899 /* Terms.plist in Resources */,
 				F171AD741914B66700D1C899 /* Main_iPad.storyboard in Resources */,
 				F171AD7C1914B66700D1C899 /* Images.xcassets in Resources */,
 				F171AD711914B66700D1C899 /* Main_iPhone.storyboard in Resources */,
@@ -261,6 +278,9 @@
 			files = (
 				F171AD771914B66700D1C899 /* HLKFirstViewController.m in Sources */,
 				F171AD6E1914B66700D1C899 /* HLKAppDelegate.m in Sources */,
+				F171AD9A1914D5D800D1C899 /* Glossary.xcdatamodeld in Sources */,
+				F171ADA2191836B600D1C899 /* HLKNavigationBar.m in Sources */,
+				F171AD9D191552B900D1C899 /* Term.m in Sources */,
 				F171AD7A1914B66700D1C899 /* HLKSecondViewController.m in Sources */,
 				F171AD6A1914B66700D1C899 /* main.m in Sources */,
 			);
@@ -487,6 +507,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F171AD981914D5D800D1C899 /* Glossary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F171AD991914D5D800D1C899 /* Glossary.xcdatamodel */,
+			);
+			currentVersion = F171AD991914D5D800D1C899 /* Glossary.xcdatamodel */;
+			path = Glossary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F171AD521914B66700D1C899 /* Project object */;
 }

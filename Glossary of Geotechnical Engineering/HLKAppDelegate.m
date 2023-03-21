@@ -7,12 +7,28 @@
 //
 
 #import "HLKAppDelegate.h"
+#import "HLKFirstViewController.h"
+#import <CoreData/CoreData.h>
+#import "Term.h"
 
 @implementation HLKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    /*
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    if (![defaults objectForKey:@"dataImported"]) {
+        HLKFirstViewController *fvc;
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"Terms" ofType:@"plist"];
+        fvc.terms = [[NSArray alloc] initWithContentsOfFile:path];
+        [defaults setObject:@"OK" forKey:@"dataImported"];
+        [defaults synchronize];
+    }
+    
+    */
+    
     return YES;
 }
 							
